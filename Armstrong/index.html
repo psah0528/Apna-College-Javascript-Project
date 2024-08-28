@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <script>
+// 153 = 1*1*1 + 5*5*5 + 3*3*3
+
+const num = prompt("enter the numbers");
+var temp =  num;
+var sum = 0;
+while(temp>0){
+ // 153 / 10 = 3
+ var digit = temp%10;
+ sum+= digit**3;              
+ temp = parseInt(temp/10);
+}
+if(sum == num){
+ console.log("its arms strong num");
+}
+else{
+ console.log("its not arm strong numbers");
+}
+
+
+ </script>
+</head>
+<body>
+ 
+</body>
+</html>
