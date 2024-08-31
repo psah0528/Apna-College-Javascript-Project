@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+
+ <script>
+var num1 = prompt("enter the first num");
+var num2 = prompt("enter the sec num");
+var opr = prompt("select among : + , - , * , / , % ");
+
+switch(opr){
+ case "+":
+  var res = parseFloat(num1) + parseFloat(num2);
+  console.log(res);
+  break;
+
+  case "-":
+  var res = parseFloat(num1) - parseFloat(num2);
+  console.log(res);
+  break;
+
+  case "*":
+  var res = parseFloat(num1) * parseFloat(num2);
+  console.log(res);
+  break;
+
+  case "/":
+  var res = parseFloat(num1) / parseFloat(num2);
+  console.log(res);
+  break;
+default:
+ console.log("Invalid Operators");
+}
+
+
+ </script>
+</head>
+<body>
+ 
+</body>
+</html>
