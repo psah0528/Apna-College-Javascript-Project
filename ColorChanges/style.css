@@ -1,0 +1,47 @@
+.main{
+ display: flex;
+ padding: 5px;
+}
+#red{
+ background-color: red;
+ border: 2px solid black;
+ height: 160px;
+ width: 150px;
+ margin: 5px;
+}
+#yellow{
+
+ background-color: yellow;
+ border: 2px solid black;
+ height: 160px;
+ width: 150px;
+ margin: 5px;
+
+}
+#blue{
+
+ background-color: blue;
+ border: 2px solid black;
+ height: 160px;
+ width: 150px;
+ margin: 5px;
+ 
+}
+#grey{
+
+ background-color: aqua;
+ border: 2px solid black;
+ height: 160px;
+ width: 150px;
+ margin: 5px;
+
+}
+#purple{
+
+ background-color: white;
+ border: 2px solid black;
+ height: 160px;
+ width: 150px;
+ margin: 5px;
+ 
+}
