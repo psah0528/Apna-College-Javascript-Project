@@ -1,0 +1,12 @@
+#clock{
+ height: 50px;
+ width: 100px;
+ border: 4px solid black;
+ border-radius: 10%;
+ background-color: yellow;
+ align-items: center;
+ margin: auto;
+}
+span{
+ color: blue;
+}
