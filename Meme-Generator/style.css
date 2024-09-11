@@ -1,0 +1,31 @@
+.meme-gen{
+ text-align: center;
+}
+.meme-gen img{
+ height: 400px;
+ object-fit: cover;
+}
+
+.meme-gen .meme-btn{
+ padding: 8px 20px;
+ border: none;
+ border-left: 4px solid black;
+ border-right: 4px solid black;
+margin: 24px 0;
+font-size: 30px;
+color: red;
+background-color: yellow;
+cursor: pointer;
+transition: all 400ms ease;
+}
+
+.meme-gen .meme-btn:hover{
+ padding: 8px 36px;
+ border-left: 10px solid black;
+ border-right: 10px solid black;
+
+}
+
+.meme-gen .meme-title{
+ font-size: 35px;
+}
