@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    thi is fetching the data
+
+    <script>
+        //fetch("fth.txt")                   // only txt file and JSON file fetch (display) here
+       // .then((response) => response.text())            // text / json
+       // .then((data) => document.write(data));
+
+
+
+        // fetch json files
+
+        fetch("https://jsonplaceholder.typicode.com/users")           
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+
+        //.catch((error) => console.log("cant fetch data"));  // when error in code 
+
+
+
+    </script>
+</body>
+</html>
