@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> calculater </title>
+</head>
+<body>
+<h2> Calculater in javascript </h2>
+<form>
+<table border="2">
+
+<tr>
+<td> First No </td>
+<td> <input id="Textfirstno" type="text" /></td>
+</td>
+
+<tr>
+<td> Second No </td>
+<td> <input id="Textsecondno" type="text" /></td>
+</tr>
+
+<tr>
+<td> <input type="button" value="ADD"
+onClick="calAdd(txtFirstnumber.value,txtSecondnumber.value);" /> &nbsp;
+
+<input type="button" value="SUB"
+onClick="calSub(txtFirstnumber.value,txtSecondnumber.value);" /> </td>
+
+
+<td> <input type="button" value="MUL"
+onClick="calMUL(txtFirstnumber.value,txtSecondnumber.value);" /> &nbsp; 
+
+<input type="button" value="DIV"
+onClick="calDiv(txtFirstnumber.value,txtSecondnumber.value);" />
+
+<input id="btnReset" type="reset" /></td>
+
+
+
+
+</tr>
+</table>
+</form>
+
+<script type="text/javascript">
+function
+calAdd(firstnumber, secondnumber)
+{
+var a=parseInt(firstnumber);
+var b=parseInt(secondnumber);
+var c=a+b;
+alert("Result="+c);
+}
+
+function
+calSub(firstnumber, secondnumber)
+{
+var a=parseInt(firstnumber);
+var b=parseInt(secondnumber);
+var c=a-b;
+alert("Result="+c);
+}
+
+function
+calMul(firstnumber, secondnumber)
+{
+var a=parseInt(firstnumber);
+var b=parseInt(secondnumber);
+var c=a*b;
+alert("Result="+c);
+}
+
+function
+calDiv(firstnumber, secondnumber)
+{
+var a=parseInt(firstnumber);
+var b=parseInt(secondnumber);
+var c=a/b;
+alert("Result="+c);
+}
+
+</script>
+
+
+
+</body>
+</html>
