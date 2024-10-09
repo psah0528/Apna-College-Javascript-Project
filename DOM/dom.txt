@@ -1,0 +1,67 @@
+selecting elements 
+1. getElementById = is returns the element as an object or null (if not found)
+document.getElementById("imges/ id name you can write here");
+2 . getElementByClassName = return the element as an html collection or empty collection 
+3. getElementByTagName = return the element as an html collection or empty collection
+
+====================================
+ QUERY SElectors  = allows us to use any css selectors 
+ 1. document.querySelector('p'); 
+ 2. document.querySelector('#myid'); 
+ 3. document.querySelector('.myclass');
+ 4. document.querySelectorAll("p"); 
+
+===================================
+1. innerText = show the visible text on a screen // output text show 
+2. textContent = shows all the full text , html file se content show krta h
+3. innerHTML =  show the full markups 
+
+===================================== Manipulating attributes ==========================
+obj.getAttribute(attri) = called get attributes = getters
+obj.setAttributes(attr , val) = also called seters = set attributes 
+
+==================================== Manipulating style 
+1. style property  == access all inline style 
+2. obj property 
+
+
+===================================  using classlists 
+obj.classList 
+1. classList.add() = to add new classes 
+2. classList.remove() = to remove classes
+3. classList.contains() = to check if class exits 
+4. classList.toggle() = to toggle between add & remove  = yes , no 
+
+
+============================== Navigation 
+1. parentElement
+2. children 
+3. previousElementSibling / nextElementSibling
+
+
+
+================================Adding Elements 
+document.createElement('button')
+1. appendChild(element)  = last me add krna new elements 
+2. append(element)   = same text me modifications krna last me
+3. prepend(element) =  add new elemnt first 
+4. insertAdjacent(beforebegin , button) == where we want to add elements is 2 parts 
+i positions ii elements 
+i positions = beforebegin , afterbegin , beforeend , afterend 
+
+ 
+ ===============================Removing Elements 
+ 1. removeChild(element)
+ 2. remove(element)
+
+
+
+
+
+
+
+
+
+
+
+

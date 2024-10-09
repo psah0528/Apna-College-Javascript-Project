@@ -1,0 +1,26 @@
+events are signal that something has occurred
+ 1. onclick event = when element is clicked 
+2. onmouseenter = when mouse enter elements
+
+
+ ===========event listener 
+
+ addEventListener 
+
+ element.addeventlistener(event, callback)
+
+
+this in event listeners = when this keyword used in a callback
+of event handler of something , it refers to that something..(event , callback) 
+
+
+keyboard events = 
+
+more event = 1. change event = this event occurs when the value of element has been 
+changed , its only use for input , textarea, select elements .
+2.. input event = this event fires when the value of an <input> ,<select>, <textarea>, elements has been changed.
+
+
+Event Bublling = 
+
+
